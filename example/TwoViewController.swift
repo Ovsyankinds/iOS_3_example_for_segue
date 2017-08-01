@@ -9,10 +9,16 @@
 import UIKit
 
 class TwoViewController: UIViewController {
-
+    
+    var propetryText = "a"
+    
+    
+    @IBOutlet weak var tTwoController: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tTwoController.text = propetryText
         // Do any additional setup after loading the view.
     }
 

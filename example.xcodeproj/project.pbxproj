@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154AE9421F165AD500B6C8DB /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154AE9411F165AD500B6C8DB /* TwoViewController.swift */; };
+		159BA8E31F1E3F3A00BFA39D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159BA8E21F1E3F3A00BFA39D /* TableViewController.swift */; };
 		15BD164F1F05CB82009A8173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD164E1F05CB82009A8173 /* AppDelegate.swift */; };
 		15BD16511F05CB82009A8173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD16501F05CB82009A8173 /* ViewController.swift */; };
 		15BD16541F05CB82009A8173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BD16521F05CB82009A8173 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		154AE9411F165AD500B6C8DB /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		159BA8E21F1E3F3A00BFA39D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		15BD164B1F05CB82009A8173 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BD164E1F05CB82009A8173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15BD16501F05CB82009A8173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				15BD164E1F05CB82009A8173 /* AppDelegate.swift */,
 				15BD16501F05CB82009A8173 /* ViewController.swift */,
 				15BD16521F05CB82009A8173 /* Main.storyboard */,
+				159BA8E21F1E3F3A00BFA39D /* TableViewController.swift */,
+				154AE9411F165AD500B6C8DB /* TwoViewController.swift */,
 				15BD16551F05CB82009A8173 /* Assets.xcassets */,
 				15BD16571F05CB82009A8173 /* LaunchScreen.storyboard */,
 				15BD165A1F05CB82009A8173 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				15BD16511F05CB82009A8173 /* ViewController.swift in Sources */,
 				15BD164F1F05CB82009A8173 /* AppDelegate.swift in Sources */,
+				154AE9421F165AD500B6C8DB /* TwoViewController.swift in Sources */,
+				159BA8E31F1E3F3A00BFA39D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				15BD165F1F05CB82009A8173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
